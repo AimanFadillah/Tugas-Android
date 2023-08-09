@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:man/home.dart';
 
@@ -8,7 +7,6 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white70,
       body: Container(
         margin: const EdgeInsets.fromLTRB(0,40,0,0),
         child: Column(
@@ -16,7 +14,7 @@ class Login extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset("/images/opening.png",width:330,),
+                Image.asset("images/opening.png",width:330,),
               ],
             ),
             Container(

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class List extends StatefulWidget {
@@ -91,7 +90,7 @@ class _ListState extends State<List> {
                         Container(
                           // child:Icon(Icons.check_box_outline_blank,size: 30,),
                           child:IconButton(
-                            icon:(list1 ? Icon(Icons.check_box,size: 30,) : Icon(Icons.check_box_outline_blank,size: 30,)),
+                            icon:(list1 ? const Icon(Icons.check_box,size: 30,) : const Icon(Icons.check_box_outline_blank,size: 30,)),
                             onPressed:actionCheck1,
                           ),
                           margin:const EdgeInsets.fromLTRB(0,0,20,0),
