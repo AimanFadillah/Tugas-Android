@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:man/create.dart';
 
 class List extends StatefulWidget {
   const List({super.key});
@@ -61,7 +62,10 @@ class _ListState extends State<List> {
       backgroundColor: Colors.purple,
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const Create()),
+            );
           },
           child:const Icon(Icons.add,color: Colors.purple,),
           backgroundColor: Colors.white,
