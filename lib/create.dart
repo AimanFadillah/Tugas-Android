@@ -25,7 +25,7 @@ class _CreateState extends State<Create> {
               child: const Text("Create List",style: TextStyle(fontSize: 30,color:Colors.white,fontWeight: FontWeight.bold)),
             ),
             Container(
-              margin: const EdgeInsets.fromLTRB(0,0,0,0),
+              margin: const EdgeInsets.fromLTRB(0,20,0,0),
               child: const TextField(
                   decoration: const InputDecoration(
                     enabledBorder: OutlineInputBorder(
